@@ -5,17 +5,17 @@
     "aura": {
       "repository": "aurora-silicon/aura",
       "branch": "main",
-      "merge": "auto"
+      "merge": "manual"
     },
     "kernel-aurora": {
       "repository": "aurora-silicon/linux",
       "branch": "integration/aurora",
-      "merge": "auto-same-version"
+      "merge": "manual"
     },
     "mesa-aurora": {
       "repository": "aurora-silicon/mesa",
       "branch": "aurora-wip",
-      "merge": "auto"
+      "merge": "manual"
     },
     "fex-emu": {
       "repository": "aurora-silicon/fex",

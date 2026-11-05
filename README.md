@@ -1,5 +1,7 @@
 # Aurora NixOS
 
+This is the `mchalunderscore` J614s fork. See [the fork stack and validation limits](docs/j614s-stack.md) for its source overrides; the publication and channel documentation below describes Aurora upstream.
+
 NixOS modules and pinned Aurora hardware packages for Apple Silicon. The [native Aurora installer](https://github.com/aurora-silicon/aurora-installer) offers KDE Plasma, GNOME and minimal profiles.
 
 The flake pins nixpkgs and the maintained [nixos-apple-silicon](https://github.com/nix-community/nixos-apple-silicon) module, then overlays Aurora's kernel, Mesa, Aura, U-Boot, audio profiles and services. `sources.json` records the same hardware source revisions used by the Fedora and ALARM ports. NixOS's declarative configuration, generations and rollback remain intact.

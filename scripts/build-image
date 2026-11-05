@@ -1,6 +1,8 @@
 #!/bin/bash
 # Build a native installer image from a previously built NixOS system closure.
 set -euo pipefail
+echo "J614s fork installer images remain disabled pending installation and update qualification" >&2
+exit 1
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
 desktop=${1:?kde, gnome or minimal required}
 system=${2:?built NixOS system path required}
